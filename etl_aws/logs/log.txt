@@ -1,0 +1,18 @@
+
+ 
+ etl process with aws and python  
+2025-02-15 18:49:00,294 - INFO - connected to s3
+2025-02-15 18:49:00,294 - INFO - uploading file to s3 bucket
+2025-02-15 18:49:02,092 - INFO - downloading dataset from s3
+2025-02-15 18:49:03,824 - INFO - loading data to dataset folder
+2025-02-15 18:49:03,824 - INFO - csv reading
+2025-02-15 18:49:03,836 - INFO - json reading
+2025-02-15 18:49:03,852 - INFO - xml reading
+2025-02-15 18:49:03,857 - INFO - transforming the raw data
+2025-02-15 18:49:03,859 - INFO - loading the data to output folder
+2025-02-15 18:49:03,944 - INFO - connecting sqlalchemy to aws rds
+2025-02-15 18:49:03,944 - INFO - loading the data to rds
+2025-02-15 18:49:05,409 - INFO - loaded to rds
+2025-02-15 18:49:05,409 - INFO - process completed 
+
+ 
