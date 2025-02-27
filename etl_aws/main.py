@@ -17,6 +17,7 @@ load_dotenv(dotenv_path='.env')
 
 AWS_ACCESS_KEY = os.getenv('AWS_ACCESS_KEY') #aws keys
 AWS_SECRET_KEY = os.getenv('AWS_SECRET_KEY')
+HOST=os.getenv('HOST')
 
 #s3Credentials
 local_path='raw_data'
@@ -29,7 +30,7 @@ output='output/'
 #rdsCredentials
 username = 'admin'
 password = os.getenv('password')
-host = 'database-1.c5eqy0mqcyh4.ap-south-1.rds.amazonaws.com'
+host = HOST
 port= 3306
 database = 'guvi'
 tablename="guvi_table"
